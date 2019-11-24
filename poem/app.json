@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#cccccc",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "为你写诗，为你静止",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+  ,
+  "sitemapLocation": "sitemap.json"
+}

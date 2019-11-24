@@ -1,0 +1,8 @@
+<view class = "container">
+  <!--index.wxml-->
+  
+  <image src= "{{tempFilePaths }}" class = "img"></image>
+  <text>{{poemContent}}</text>
+  <button style="margin:30rpx;" bindtap="chooseimage">获取图片</button>
+  
+</view>
