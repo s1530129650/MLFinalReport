@@ -1,7 +1,11 @@
 {
   "pages": [
     "pages/main/main",
-    "pages/test/test"
+    "pages/test/test",
+    "pages/ocr/ocr",
+    "pages/caption/caption",
+     "pages/detect/detect",
+     "pages/tag/tag"
   ],
   "window": {
     "navigationBarBackgroundColor": "#cccccc",

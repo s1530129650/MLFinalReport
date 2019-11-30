@@ -23,11 +23,39 @@
     </navigator>
   </view>
 
+    <!-- OCR识别银行卡 -->
+  <view class="uploader">
+    <navigator url="../ocr/ocr" open-type="navigate" class="uploader-text">
+
+      <text>OCR测试</text>
+    </navigator>
+  </view>
+
+      <!-- 看图说话 -->
+  <view class="uploader">
+    <navigator url="../caption/caption" open-type="navigate" class="uploader-text">
+      <text>看图说话</text>
+    </navigator>
+  </view>
+
+    <!-- detect -->
+  <view class="uploader">
+    <navigator url="../detect/detect" open-type="navigate" class="uploader-text">
+      <text>物体识别</text>
+    </navigator>
+  </view>
+
+      <!-- tag -->
+  <view class="uploader">
+    <navigator url="../tag/tag" open-type="navigate" class="uploader-text">
+      <text>多标签识别</text>
+    </navigator>
+  </view>
+
 
     <!-- 测试 -->
   <view class="uploader">
     <navigator url="../test/test" open-type="navigate" class="uploader-text">
-
       <text>测试函数</text>
     </navigator>
   </view>

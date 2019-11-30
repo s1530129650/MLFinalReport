@@ -1,0 +1,18 @@
+<!-- 识别源类型 -->
+<radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}" wx:key="" class="{{type == item.value ? 'bc_green white': 'green'}}">
+    <radio value="{{item.value}}" checked="{{item.checked}}" />
+    {{item.title}}
+  </label>
+</radio-group>
+<button bindtap="choose">选择图片</button>
+<block wx:if="{{type === 'ocr_creditcardocr'}}">
+  <view class="item" wx:for="{{info}}" wx:key="">
+    <view class="label">{{item.item}}</view>
+    <view class="value" bindtap="copy" data-str="{{item.itemstring}}">{{item.itemstring}}</view>
+  </view>
+</block>
+<view wx:else>
+  <text bindtap="copy" data-str="{{content}}">{{content}}</text>
+</view>
+<image src="{{file}}" class="thumb" mode="widthFix" />

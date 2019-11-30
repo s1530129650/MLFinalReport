@@ -1,0 +1,6 @@
+<!--pages/detect/detect.wxml-->
+<button bindtap="choose">选择图片</button>
+
+<image src="{{file}}" class="thumb" mode="widthFix" />
+
+<text bindtap="copy" data-str="{{content}}">{{content}}</text>

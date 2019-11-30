@@ -1,0 +1,2 @@
+<!--pages/detect/detect.wxml-->
+<button bindtap="choose">选择图片</button>

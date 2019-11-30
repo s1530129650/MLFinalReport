@@ -1,0 +1,48 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.thumb {
+  width: 100%;
+}
+
+.radio-group {
+  background-color:white;
+  display: flex;
+  margin: 25px;
+  border: 1px solid #09BB07;
+  border-radius: 5px;
+  /* border-right: 0; */
+}
+
+.radio-group radio {
+  display: none;
+}
+
+.green{
+  color: #09BB07;
+}
+
+.bc_green{
+  background-color: #09BB07;
+}
+
+.white {
+  color: white;
+}
+
+/* label均匀分布，文字居中 */
+label {
+  text-align: center;
+  padding: 3px 0;
+  flex: 1;
+  border-right: 1px solid #09BB07;
+}
+
+label:last-child {
+  border-right: 0;
+}
