@@ -1,0 +1,10 @@
+
+<!-- view 中包含了 text 标签 -->
+<view>
+  <text>this is test code</text>
+</view>
+<text>天气：{{date}}；{{fengxiang}}；{{weather}}
+</text>
+
+<!--pages/wxml/index.wxml-->
+<text>当前时间：{{time}}</text>
