@@ -53,6 +53,13 @@
   </view>
 
 
+    <!-- 上传图片 -->
+  <view class="uploader">
+    <navigator url="../sendimg/sendimg" open-type="navigate" class="uploader-text">
+      <text>上传图片</text>
+    </navigator>
+  </view>
+
     <!-- 测试 -->
   <view class="uploader">
     <navigator url="../test/test" open-type="navigate" class="uploader-text">

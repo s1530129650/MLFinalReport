@@ -5,6 +5,7 @@
     "pages/ocr/ocr",
     "pages/caption/caption",
      "pages/detect/detect",
+     "pages/sendimg/sendimg",
      "pages/tag/tag"
   ],
   "window": {
