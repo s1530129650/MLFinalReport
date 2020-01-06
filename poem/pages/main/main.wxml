@@ -2,6 +2,9 @@
 <!--index.wxml-->
 <view class="container">
 
+	<image class='background' src="../../images/bg.jpg" mode="aspectFill"></image>
+
+	<!--页面其它部分-->
   <!-- 用户 openid -->
   <view class="userinfo">
     <button 
@@ -19,53 +22,53 @@
     <!-- image2poem -->
   <view class="uploader">
     <navigator url="../index/index" open-type="navigate" class="uploader-text">
-      <text>看图作诗</text>
+      <text>你敢放图我就敢作诗</text>
     </navigator>
   </view>
 
     <!-- OCR识别银行卡 -->
-  <view class="uploader">
+  <!-- <view class="uploader">
     <navigator url="../ocr/ocr" open-type="navigate" class="uploader-text">
 
       <text>OCR测试</text>
     </navigator>
-  </view>
+  </view> -->
 
       <!-- 看图说话 -->
-  <view class="uploader">
+  <!-- <view class="uploader">
     <navigator url="../caption/caption" open-type="navigate" class="uploader-text">
       <text>看图说话</text>
     </navigator>
-  </view>
+  </view> -->
 
     <!-- detect -->
-  <view class="uploader">
+  <!-- <view class="uploader">
     <navigator url="../detect/detect" open-type="navigate" class="uploader-text">
       <text>物体识别</text>
     </navigator>
-  </view>
+  </view> -->
 
       <!-- tag -->
-  <view class="uploader">
+  <!-- <view class="uploader">
     <navigator url="../tag/tag" open-type="navigate" class="uploader-text">
       <text>多标签识别</text>
     </navigator>
-  </view>
+  </view> --> 
 
 
     <!-- 上传图片 -->
   <view class="uploader">
     <navigator url="../sendimg/sendimg" open-type="navigate" class="uploader-text">
-      <text>上传图片</text>
+      <text>康康图片的关键词er</text>
     </navigator>
   </view>
 
     <!-- 测试 -->
-  <view class="uploader">
+  <!-- <view class="uploader">
     <navigator url="../test/test" open-type="navigate" class="uploader-text">
       <text>测试函数</text>
     </navigator>
-  </view>
+  </view> -->
 
 
 </view>

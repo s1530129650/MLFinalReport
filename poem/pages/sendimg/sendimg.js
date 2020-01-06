@@ -30,7 +30,7 @@ Page({
     console.log(params)
     console.log('准备上传')
     wx.request({
-      url: `https://lechatelia.mynatapp.cc/upload`, // 仅为示例，并非真实的接口地址
+      url: `https://lechatelia.mynatapp.cc/multilabel`, // 服务器多标签检测端口
       data: params,
       method: 'POST',
       header: {
@@ -41,7 +41,7 @@ Page({
         console.log(res.data)
         if (res.data.ret != 0) {
           wx.showModal({
-            title: 'sorry， error',
+            title: 'sorry' + res.data.msg,
             content: res.data.msg,
             showCancel: false
           })
